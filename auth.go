@@ -2,9 +2,10 @@ package mail
 
 import (
 	"bytes"
-	"errors"
 	"fmt"
 	"net/smtp"
+
+	"github.com/pkg/errors"
 )
 
 // loginAuth is an smtp.Auth that implements the LOGIN authentication mechanism.
